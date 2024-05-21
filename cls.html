@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  div{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    /* animation-name: rotated ;
+    animation-delay:5s;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out; */
+    animation: rotated 5s ease-in-out 10s;
+
+  }
+
+
+
+  @keyframes rotated{
+from{
+  transform: rotate(180deg);
+}
+to{
+  transform: rotate(0deg);
+}
+  }
+</style>
+<body>
+  <div>
+
+  </div>
+</body>
+</html>
